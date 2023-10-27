@@ -12,6 +12,36 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url(images/libreria.png);
+  background: url(images/libreria.png) center center/cover no-repeat fixed;
+
+}
+
+.centered-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  max-width: 600px;
+  height: 500px;
+  padding:20px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.container-inner{
+  width: 80%;
+}
+
+/* content */
+
+#title {
+  width: 100%;
+  font-weight: bold;
+  
 
 }
