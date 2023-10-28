@@ -10,13 +10,10 @@ let getRandomQuote = (max, min) => {
 
 let printQuote = () => {
 let randomQuote = getRandomQuote(quotes.length, 0);
-quoteElement.innerText = quotes[randomQuote].texto;
+quoteElement.innerText = `"${quotes[randomQuote].texto}"`;
 authorElement.innerText = quotes[randomQuote].autor;
-
-
 };
 
 printQuote();
 
 buttonElement.addEventListener('click', printQuote);
-
